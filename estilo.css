@@ -1,30 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 
 
 
 header {
-    background-color:black;
-    color: #fff;
-    padding: 10px;
+  background-color:black;
+  color: #fff;
+  padding: 10px;
 
 
 }
 header > a{
-    display: flex;
-    justify-content: center;
-    align-items: center ;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
 
 
 }
 header h1 {
-    text-align: center;
-    margin: 1;
-    font-size: 3em;
+  text-align: center;
+  margin: 1;
+  font-size: 3em;
 }
 
 
@@ -33,30 +33,30 @@ header h1 {
 nav ul {
 
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 20px;
 
 
-   
+ 
 }
 
 
 
 
 ul > li {
-    text-align: center;
-    width: 300px;
-    display: inline-block;
-    margin-right: 20px;
-    transition: 0.3s ease;
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+  margin-right: 20px;
+  transition: 0.3s ease;
 }
 ul > li:hover{
-    background-color: rgb(37, 37, 37);
+  background-color: rgb(37, 37, 37);
 }
 
 
@@ -65,143 +65,142 @@ ul > li:hover{
 
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 
 
 
 section {
-    padding: 20px;
+  padding: 20px;
 }
 
 
 
 
 footer {
-    background-color:black;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+  background-color:black;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 form {
-    margin: 20px;
-  }
- 
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
- 
-  input, textarea {
-    display: block;
-    margin-bottom: 10px;
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
 
-  #enviar{
-    position: relative;
-    left: 750px;
-    border-radius: 20px;
-  }
-  #enviar:hover{
-    animation: pulse 1s infinite;
-  }
-  input[type="submit"] {
+#enviar{
+  position: relative;
+  left: 750px;
+  border-radius: 20px;
+}
+#enviar:hover{
+  animation: pulse 1s infinite;
+}
+input[type="submit"] {
 
 
-    background-color:black;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 300px;
-    transition: .2s ease-in;
+  background-color:black;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+  transition: .2s ease-in;
 
 
-  }
- 
-  input[type="submit"]:hover {
-    background-color:rgb(49, 49, 49);
+}
+
+input[type="submit"]:hover {
+  background-color:rgb(49, 49, 49);
 
 
-  }
-  section {
-    margin: 20px;
-  }
- 
-  h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
- 
-  h3 {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
- 
-  p {
-    margin-bottom: 20px;
-  }
-  .chatbot {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 400px;
-    border: 1
-  }
+}
+section {
+  margin: 20px;
+}
 
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
-
-  img{
+p {
+  margin-bottom: 20px;
+}
+.chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 400px;
+  border: 1
+}
 
 
 
 
-    width: 100pt;
-  }
-  .chatbot{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-    border: 2px solid black;
-    opacity: 96%;
-  }
-  #chat{
-    width: 280px;
-  }
-  #botao-chatbot{
-    border-radius: 20px;
-  }
+img{
+
+
+
+
+  width: 100pt;
+}
+.chatbot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  opacity: 96%;
+}
+#chat{
+  width: 280px;
+}
+#botao-chatbot{
+  border-radius: 20px;
+}
 .imagens > img{
-    width: 500px;
-    height: 300px;
+  width: 500px;
+  height: 300px;
 }
 .imagens  > div{
-    text-align: start;
-    text-indent: 2em;
-    font-size: 12px;
-    color: #6b6b6b;
+  text-align: start;
+  text-indent: 2em;
+  font-size: 12px;
+  color: #6b6b6b;
 }
 
 #admin{
-    position: relative;
-    left: -150px;
-    text-align: center;
+  position: relative;
+  left: -150px;
+  text-align: center;
 
 }
-
 

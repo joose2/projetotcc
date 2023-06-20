@@ -1,0 +1,331 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+header {
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+
+
+}
+header > a{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+
+}
+header h1 {
+    text-align: center;
+    margin: 1;
+    font-size: 3em;
+}
+
+
+
+
+nav ul {
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+
+
+   
+}
+
+
+
+
+ul > li {
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+    transition: 0.3s ease;
+}
+ul > li:hover{
+    background-color: rgb(37, 37, 37);
+}
+
+
+
+
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+section {
+    padding: 20px;
+}
+
+
+
+
+footer {
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+form {
+    margin: 20px;
+  }
+ 
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+ 
+  
+
+
+  #enviar{
+    position: relative;
+    left: 750px;
+    border-radius: 20px;
+  }
+  #enviar:hover{
+    animation: pulse 1s infinite;
+  }
+  
+  section {
+    margin: 20px;
+  }
+ 
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+ 
+  h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+ 
+  p {
+    margin-bottom: 20px;
+  }
+  .chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 400px;
+    border: 1
+  }
+
+
+
+
+  img{
+
+
+
+
+    width: 100pt;
+  }
+  .chatbot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    opacity: 96%;
+  }
+  #chat{
+    width: 280px;
+  }
+  #botao-chatbot{
+    border-radius: 20px;
+  }
+.imagens > img{
+    width: 500px;
+    height: 300px;
+}
+.imagens  > div{
+    text-align: start;
+    text-indent: 2em;
+    font-size: 12px;
+    color: #6b6b6b;
+}
+
+#admin{
+    position: relative;
+    left: -150px;
+    text-align: center;
+
+}
+
+.field{
+display: flex;
+  width: 100%;
+  margin: 15px 0;
+  align-items: center;
+  justify-content: center;
+}
+.field label, 
+.field span{
+  padding-left: 10px;
+  font-size: 1.1em;
+  display: block;
+  width: 100%;
+}
+.radiobox label{
+  width: auto;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+
+/* CSS reset */
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+   
+  /* remove a linha dos links */
+  a{
+    text-decoration: none;
+  }
+   
+  /* esconde as ancoras da tela */
+  a.links{
+    display: none;
+  }
+  .content{
+  width: 500px;
+  min-height: 560px;    
+  margin: 0px auto;
+  position: relative;   
+}
+.content{
+    width: 500px;
+    min-height: 560px;    
+    margin: 0px auto;
+    position: relative;   
+  }
+
+
+#l{
+    
+        font-size: 48px;
+        color: #000000;
+        padding: 2px 0 10px 0;
+        font-family: Arial,sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 30px;
+      
+}
+h1:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, rgba(236, 103, 103, 0) 0%,rgba(231, 107, 107, 0.8) 20%,rgb(248, 2, 2) 53%,rgba(241, 118, 101, 0.8) 79%,rgba(147,184,189,0) 100%); 
+    
+  }/*estilo do botão submit */
+input[type="submit"]{
+    width: 100%!important;
+    cursor: pointer;  
+    background: rgb(61, 157, 179);
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;  
+    border: 1px solid #fff;   
+    margin-bottom: 10px;  
+    text-shadow: 0 1px 1px #333;
+   
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   
+    transition: all 0.2s linear;
+  }
+   
+  /*estilo do botão submit no hover */
+  input[type="submit"]:hover{
+    background: #4ab3c6;
+  }
+
+
+  link{
+    position: absolute;
+    background: #e1eaeb;
+    color: #7f7c7c;
+    left: 0px;
+    height: 20px;
+    width: 440px;
+    padding: 17px 30px 20px 30px;
+    font-size: 16px;
+    text-align: right;
+    border-top: 1px solid #dbe5e8;
+   
+    -webkit-border-radius: 0 0  5px 5px;
+    border-radius: 0 0  5px 5px;
+  }
+   
+  .link a {
+    font-weight: bold;
+    background: #f7f8f1;
+    padding: 6px;
+    color: rgb(29, 162, 193);
+    margin-left: 10px;
+    border: 1px solid #cbd518;
+   
+    -webkit-border-radius: 4px;
+    border-radius: 4px;  
+   
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s  linear;
+  }
+   
+  .link a:hover {
+    color: #39bfd7;
+    background: #f7f7f7;
+    border: 1px solid #4ab3c6;
+  }
+
+
+  /* Efeito ao clicar no botão ( Ir para Login ) */
+#paracadastro:target ~ .content #cadastro,
+#paralogin:target ~ .content #login{
+  z-index: 2;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+ 
+  -webkit-animation-delay: .1s;
+  animation-delay: .1s;
+}
+ 
+/* Efeito ao clicar no botão ( Cadastre-se ) */
+#registro:target ~ .content #login,
+#paralogin:target ~ .content #cadastro{
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+}
+
+
