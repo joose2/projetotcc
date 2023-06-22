@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cadastr.css">
+
+</head>
+<body>
+    <form>
+        <h2>Cadastre-se</h2>
+        <div class="field radiobox">
+            <input type="radio" name="novidades" id="administração" value="administração" checked><label for="nao">usuario</label>
+            <input type="radio" name="novidades" id="responsavel" value="responsavel" ><label for="nao">responsavel</label>
+        </div>
+        <label for="nome">Nome completo:</label>    
+        <input type="text" id="nome" name="nome" required>
+
+
+        <label for="email">Endereço de email:</label>
+        <input type="email" id="email" name="email" required>
+
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" pattern="[0-9]{10,11}" required>
+
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" minlength="8" required>
+        <span class="error">Sua senha deve conter pelo menos 8 caracteres</span>
+
+
+        <label for="confirma_senha">Confirme sua senha:</label>
+        <input type="password" id="confirma_senha" name="confirma_senha" minlength="8" required>
+        <span class="error">As senhas não coincidem</span>
+
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html

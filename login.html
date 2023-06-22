@@ -23,7 +23,9 @@
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="#">Registrar uma queixa</a></li>
                 <li><a href="#">Verificar o status</a></li>
-            </ul>
+
+    
+  </body>       
     </header>
     <section>
         <h2>Faça login para inicia sua solicitação ou cadastre-se agora!!!</h2>
@@ -34,19 +36,20 @@
               <input type="radio" name="novidades" id="administração" value="administração" checked><label for="nao">usuario</label>
               <input type="radio" name="novidades" id="responsavel" value="responsavel" ><label for="nao">responsavel</label>
           </div>
-          <p id="central"><label for="nome_login">Rm</label>
-            <input id="nome_login" name="nome_login" required="required" type="password" placeholder="ex.12345"/>
-            <label for="nome_login">Seu login</label>
-            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. contato@htmlecsspro.com"/>
-            <label for="email_login">Sua senha</label>
-            <input id="email_login" name="email_login" required="required" type="password" placeholder="ex. senha" /> 
+          <p id="central">
+            <label id="rm" for="rm_login">Rm</label>
+            <input id="rm_login" name="rm_login" required="required" type="password" placeholder="ex.12345"/>
+            <label id=login for="nome_login">Seu login</label>
+            <input  id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. contato@htmlecsspro.com"/>
+            <label id="senha" for="senha_login">Sua senha</label>
+            <input id="senha_login" name="senha_login" required="required" type="password" placeholder="ex. senha" /> 
           </p>
-          <p> 
+          <p id="central"> 
             <input type="submit" value="Entra" /> 
           </p>
           <p class="link">
             Ainda não tem conta?
-            <a href="#paracadastro">Cadastre-se</a>
+            <a href="cadastro.html">Cadastre-se</a>
           </p>
         </form>
       </div>
